@@ -1,4 +1,8 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt up" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
