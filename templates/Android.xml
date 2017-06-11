@@ -1,8 +1,4 @@
 <templateSet group="Android">
-  <template name="or" value="import com.garena.android.appkit.eventbus.Event;&#10;import com.garena.android.appkit.tools.BBAppResource;&#10;import com.garena.android.appkit.tools.helper.BBTimeHelper;&#10;import com.shopee.app.R;&#10;import com.shopee.app.domain.event.EVENT;&#10;import com.shopee.app.util.CONST;&#10;" shortcut="SPACE" description="order table class import" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="header" value="/**&#10; * @author ${USER}&#10; * @since ${DATE} ${TIME}&#10; */" description="file header including author, time" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="or" value="import com.garena.android.appkit.eventbus.Event;&#10;import com.garena.android.appkit.tools.BBAppResource;&#10;import com.garena.android.appkit.tools.helper.BBTimeHelper;&#10;import com.shopee.app.R;&#10;import com.shopee.app.domain.event.EVENT;&#10;import com.shopee.app.util.CONST;&#10;" shortcut="SPACE" description="order table class import" toReformat="true" toShortenFQNames="true" />
+  <template name="header" value="/**&#10; * @author ${USER}&#10; * @since ${DATE} ${TIME}&#10; */" description="file header including author, time" toReformat="false" toShortenFQNames="true" />
 </templateSet>

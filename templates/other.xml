@@ -2,15 +2,12 @@
   <template name="ifsn" value="if (!TextUtils.isEmpty($VAR$)) {&#10;$END$&#10;}" description="if string not null for java" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="inn" value="if ($VAR$ != null) {&#10;    $END$&#10;}" description="Inserts ''if not null'' statement" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="suggestFirstVariableName(&quot;Object&quot;)" defaultValue="var" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="GROOVY_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>
