@@ -8,33 +8,9 @@
         <PlaceSettings />
       </entry>
       <entry key="Default">
-        <PlaceSettings>
-          <option name="DIFF_TOOLS_ORDER">
-            <list>
-              <option value="com.intellij.diff.tools.simple.SimpleDiffTool" />
-              <option value="com.intellij.diff.tools.fragmented.UnifiedDiffTool" />
-              <option value="com.intellij.diff.tools.binary.BinaryDiffTool" />
-              <option value="com.intellij.diff.tools.dir.DirDiffTool" />
-              <option value="org.jetbrains.idea.svn.difftool.properties.SvnPropertiesDiffTool" />
-              <option value="org.jetbrains.idea.svn.difftool.SvnPhantomChangeDiffRequestProvider.SvnPhantomDiffTool" />
-              <option value="org.jetbrains.idea.svn.difftool.SvnTreeConflictDiffRequestProvider.SvnTreeConflictDiffTool" />
-            </list>
-          </option>
-        </PlaceSettings>
-      </entry>
-      <entry key="TestsFiledAssertions">
         <PlaceSettings />
       </entry>
     </option>
-  </component>
-  <component name="ExternalDiffSettings">
-    <option name="DIFF_ENABLED" value="true" />
-    <option name="DIFF_DEFAULT" value="false" />
-    <option name="DIFF_EXE_PATH" value="/usr/local/bin/ksdiff" />
-    <option name="DIFF_PARAMETERS" value="%1 %2 %3" />
-    <option name="MERGE_ENABLED" value="false" />
-    <option name="MERGE_EXE_PATH" value="/usr/local/bin/ksdiff" />
-    <option name="MERGE_PARAMETERS" value="%1 %2 %3 %4" />
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
@@ -49,15 +25,9 @@
         </PlaceSettings>
       </entry>
       <entry key="Default">
-        <PlaceSettings>
-          <option name="HIGHLIGHT_POLICY" value="BY_WORD_SPLIT" />
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
-        </PlaceSettings>
-      </entry>
-      <entry key="Merge">
         <PlaceSettings />
       </entry>
-      <entry key="TestsFiledAssertions">
+      <entry key="Merge">
         <PlaceSettings />
       </entry>
     </option>
