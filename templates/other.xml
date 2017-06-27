@@ -8,5 +8,6 @@
   </template>
   <template name="inn" value="if ($VAR$ != null) {&#10;    $END$&#10;}" description="Inserts ''if not null'' statement" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="suggestFirstVariableName(&quot;Object&quot;)" defaultValue="var" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
